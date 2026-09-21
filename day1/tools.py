@@ -1,7 +1,7 @@
 """Tools the agent is allowed to use, plus their JSON Schema descriptions."""
 import ast
 import operator
-from day1.venv.config import COURSE_FEES
+from config import COURSE_FEES
  
 def get_course_fee(course_code: str) -> str:
     """Look up the fee for one course code."""
